@@ -8,13 +8,21 @@ package cr.ac.ulatina.programacionll.aerolinea.entidades;
  *
  * @author Andrew Corea Flores
  */
+//Atributos
 public class Usuarios {
     private String ID;
     private String Nombre;
     private String NombreUsuario;
     private String Contrasena;
     private String Rol;
-
+/**
+ * Este es el construtor con parametros
+ * @param ID
+ * @param Nombre
+ * @param NombreUsuario
+ * @param Contrasena
+ * @param Rol 
+ */
     public Usuarios(String ID, String Nombre, String NombreUsuario, String Contrasena, String Rol) {
         this.ID = ID;
         this.Nombre = Nombre;
@@ -22,7 +30,9 @@ public class Usuarios {
         this.Contrasena = Contrasena;
         this.Rol = Rol;
     }
-
+/**
+ * Constructor sin parametros
+ */
     public Usuarios() {
     }
 
